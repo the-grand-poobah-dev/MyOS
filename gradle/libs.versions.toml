@@ -20,3 +20,4 @@ fossify-commons = { module = "org.fossify:commons", version.ref = "commons" }
 
 [plugins]
 android = { id = "com.android.application", version.ref = "gradlePlugins-agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
