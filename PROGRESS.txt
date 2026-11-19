@@ -1,0 +1,18 @@
+PROJECT: MyOS
+GOAL: One Android app (Android 16) that combines Fossify Launcher, Phone and Messages.
+It must be settable as default Home, Phone and SMS app.
+Source code of the three apps is in the "sources" folder.
+I am not a programmer. Explain in simple words.
+
+DONE SO FAR:
+- Created standard Android Gradle project with `:app` module targeting Android 16 (SDK 36)
+- Converted Launcher app in sources into a library module (`:launcher`) and connected it to the main app module
+- Converted Phone app in sources into a library module (`:phone`), handled manifest/Application class conflicts, and connected it to the main app module
+- Converted Messages app in sources into a library module (`:messages`), preserved all SMS/MMS receivers and services, handled conflicts, and connected it to the main app module
+- Added first screen (`MainActivity.kt` & `activity_main.xml`) with three buttons to request default roles (`ROLE_HOME`, `ROLE_DIALER`, `ROLE_SMS`) using Android's `RoleManager`
+
+CURRENT STEP:
+Completed!
+
+PROBLEMS:
+(none)

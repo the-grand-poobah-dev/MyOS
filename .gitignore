@@ -1,0 +1,27 @@
+# Built files and Gradle output
+*.iml
+.gradle/
+build/
+app/build/
+captured/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration files
+local.properties
+
+# Android Studio / IntelliJ IDEA files
+.idea/
+
+# Keystores & Secrets
+*.jks
+*.keystore
+*.pepk
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Executable / Package files
+*.apk
+*.aab
